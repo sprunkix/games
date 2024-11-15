@@ -1,10 +1,10 @@
-# [SprunkiX](https://sprunkix.com/) Game
+# [Sprunki](https://sprunkix.com/) Game
 
 Welcome to the official repository for [SprunkiX.com](https://sprunkix.com/), the landing page for the Sprunki mod of the popular Incredibox music creation game.
 
 ## Table of Contents
 
-- [SprunkiX Game](#sprunkix-game)
+- [Sprunki Game](#sprunki-game)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Features](#features)
@@ -33,11 +33,11 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/sprunkix/game.git
+   git clone https://github.com/sprunkix/games.git
    ```
 2. Navigate to the project directory:
    ```
-   cd game
+   cd games
    ```
 3. Open `index.html` in your preferred web browser.
 
@@ -55,8 +55,7 @@ This website is built using pure HTML, CSS, and JavaScript for easy maintenance 
 sprunkiincredibox/
 │
 ├── index.html
-├── img/
-│   ├── home-header2.jpg
+├── images/
 │   └── ... (other images)
 ├── site.webmanifest
 └── README.md

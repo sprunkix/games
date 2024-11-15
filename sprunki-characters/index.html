@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprunki Characters - Meet the Musical Crew</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="canonical" href="https://sprunkix.com/sprunki-characters/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1a0b2e 0%, #2f1c54 100%);
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .character-card {
+            transition: all 0.3s ease;
+        }
+        .character-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(147, 51, 234, 0.3);
+        }
+        .glow-effect {
+            box-shadow: 0 0 20px rgba(147, 51, 234, 0.3);
+        }
+    </style>
+</head>
+<body class="text-white min-h-screen">
+    <!-- Header -->
+    <header class="fixed w-full z-50 glass-effect">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="text-2xl font-bold text-purple-300">Sprunki Incredibox</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/index.html" class="text-purple-200 hover:text-purple-400 transition-colors">Home</a>
+                    <a href="#beatmakers" class="text-purple-200 hover:text-purple-400 transition-colors">Beatmakers</a>
+                    <a href="#vocals" class="text-purple-200 hover:text-purple-400 transition-colors">Vocals</a>
+                    <a href="#effects" class="text-purple-200 hover:text-purple-400 transition-colors">Effects</a>
+                </div>
+                <a href="/play" class="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-full font-semibold transition-colors glow-effect">Play Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-300">Meet The Crew</h1>
+            <p class="text-xl md:text-2xl mb-12 text-purple-200">Discover the unique characters that make up your musical ensemble</p>
+        </div>
+    </section>
+
+    <!-- Beatmakers Section -->
+    <section id="beatmakers" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 text-purple-300">The Beatmakers</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="character-card glass-effect p-8 rounded-2xl">
+                    <div class="h-48 bg-purple-900/30 rounded-xl mb-6 flex items-center justify-center">
+                        <span class="text-6xl">🥁</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-300">Rhythm Master</h3>
+                    <p class="text-purple-200">The foundation of every mix, bringing solid beats and rhythm patterns that keep the groove moving.</p>
+                </div>
+                <div class="character-card glass-effect p-8 rounded-2xl">
+                    <div class="h-48 bg-purple-900/30 rounded-xl mb-6 flex items-center justify-center">
+                        <span class="text-6xl">🎵</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-300">Bass King</h3>
+                    <p class="text-purple-200">Deep, resonating bass lines that add depth and power to your musical creations.</p>
+                </div>
+                <div class="character-card glass-effect p-8 rounded-2xl">
+                    <div class="h-48 bg-purple-900/30 rounded-xl mb-6 flex items-center justify-center">
+                        <span class="text-6xl">🎹</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-300">Melody Maker</h3>
+                    <p class="text-purple-200">Creates catchy melodies and harmonies that give your mix its unique character.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vocals Section -->
+    <section id="vocals" class="py-20 bg-purple-900/20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 text-purple-300">The Vocalists</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="character-card glass-effect p-8 rounded-2xl">
+                    <div class="h-48 bg-purple-900/30 rounded-xl mb-6 flex items-center justify-center">
+                        <span class="text-6xl">🎤</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-300">The Beatboxer</h3>
+                    <p class="text-purple-200">Master of vocal percussion, creating incredible beats using just their voice.</p>
+                </div>
+                <div class="character-card glass-effect p-8 rounded-2xl">
+                    <div class="h-48 bg-purple-900/30 rounded-xl mb-6 flex items-center justify-center">
+                        <span class="text-6xl">🎸</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-300">The Harmonist</h3>
+                    <p class="text-purple-200">Adds rich vocal harmonies that give depth and emotion to your mix.</p>
+                </div>
+                <div class="character-card glass-effect p-8 rounded-2xl">
+                    <div class="h-48 bg-purple-900/30 rounded-xl mb-6 flex items-center justify-center">
+                        <span class="text-6xl">🎧</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-300">The Rapper</h3>
+                    <p class="text-purple-200">Drops smooth rhymes and rhythmic vocals to elevate your track.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Effects Section -->
+    <section id="effects" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 text-purple-300">The Effects Crew</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="character-card glass-effect p-8 rounded-2xl">
+                    <div class="h-48 bg-purple-900/30 rounded-xl mb-6 flex items-center justify-center">
+                        <span class="text-6xl">⚡</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-300">The Electro Wizard</h3>
+                    <p class="text-purple-200">Adds electronic effects and synthesizer sounds to enhance your mix.</p>
+                </div>
+                <div class="character-card glass-effect p-8 rounded-2xl">
+                    <div class="h-48 bg-purple-900/30 rounded-xl mb-6 flex items-center justify-center">
+                        <span class="text-6xl">🌟</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-300">The Atmospherist</h3>
+                    <p class="text-purple-200">Creates ambient sounds and textures that give your mix depth and space.</p>
+                </div>
+                <div class="character-card glass-effect p-8 rounded-2xl">
+                    <div class="h-48 bg-purple-900/30 rounded-xl mb-6 flex items-center justify-center">
+                        <span class="text-6xl">✨</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-300">The Sound Designer</h3>
+                    <p class="text-purple-200">Adds unique sound effects and transitions to make your mix stand out.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Character Combination Guide -->
+    <section class="py-20 bg-purple-900/20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 text-purple-300">Character Combinations</h2>
+            <div class="max-w-4xl mx-auto glass-effect p-8 rounded-2xl">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-purple-300">Basic Beat</h3>
+                        <ul class="space-y-2 text-purple-200">
+                            <li>• Rhythm Master + Bass King</li>
+                            <li>• Add Beatboxer for extra punch</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-purple-300">Full Harmony</h3>
+                        <ul class="space-y-2 text-purple-200">
+                            <li>• Melody Maker + Harmonist</li>
+                            <li>• Add Atmospherist for depth</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-purple-300">Electronic Mix</h3>
+                        <ul class="space-y-2 text-purple-200">
+                            <li>• Electro Wizard + Sound Designer</li>
+                            <li>• Add Bass King for foundation</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-purple-300">Hip Hop Style</h3>
+                        <ul class="space-y-2 text-purple-200">
+                            <li>• Rapper + Beatboxer</li>
+                            <li>• Add Bass King for groove</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass-effect mt-20 py-12">
+        <div class="container mx-auto px-4">
+            <p class="text-center">&copy; 2024 SprunkiX.com. All rights reserved. Embrace the Sprunki spirit!
+            </p>
+        </div>
+        <div class="container mx-auto px-4 mt-4">
+            <p class="text-center"><a href="https://github.com/sprunkix/games"
+                    class="text-white hover:text-yellow-400 transition duration-300">Sprunki Games Github</a></p>
+        </div>
+    </footer>
+</body>
+</html>
