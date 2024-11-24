@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprunki Phase 10 – Free Sprunki Incredibox Mod Online</title>
+    <meta name="description" content="Experience Sprunki Phase 10, a free mod of Sprunki Incredibox. Mix exclusive sounds and new characters to create music masterpieces.">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/icon/favicon-16x16.png">
+    <link rel="icon" href="../favicon.ico"/>
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="canonical" href="https://sprunkiincredibox.com/sprunki-phase-10/"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="../tailwind.js"></script>
+    <link rel="stylesheet" href="../tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1522458956946675"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 font-sans leading-relaxed">
+    <header class="bg-gradient-to-r from-red-800 to-red-900 text-white py-4 fixed top-0 left-0 w-full z-50 shadow-lg">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center">
+                <div class="logo">
+                    <a href="../" class="flex items-center text-xl font-bold">
+                        <i class="fas fa-music mr-2 hidden sm:block"></i> Sprunki Incredibox</a>
+                </div>
+                <ul class="nav-links hidden md:flex space-x-6">
+                    <li><a href="../play/" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-play mr-1"></i> Play Sprunki</a></li>
+                    <li><a href="../mod/" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-play mr-1"></i> Mod</a></li>
+                    <li><a href="../download/" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-download mr-1"></i> Download</a></li>
+                    <li><a href="../sprunki-characters/" class="hover:text-yellow-400 transition duration-300" title="Sprunki Characters"><i class="fas fa-users mr-1"></i> Characters</a></li>
+                </ul>
+                <div class="burger md:hidden cursor-pointer">
+                    <div class="line1 bg-white h-0.5 w-6 my-1 transition duration-300"></div>
+                    <div class="line2 bg-white h-0.5 w-6 my-1 transition duration-300"></div>
+                    <div class="line3 bg-white h-0.5 w-6 my-1 transition duration-300"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="mobile-nav fixed top-0 left-0 w-full h-screen bg-red-900 z-40 transform -translate-x-full transition duration-300 ease-in-out">
+        <ul class="flex flex-col items-center justify-center h-full space-y-8 text-white text-2xl">
+            <li><a href="../play/" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-play mr-2"></i> Play Sprunki</a></li>
+            <li><a href="../download/" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-download mr-2"></i> Download</a></li>
+            <li><a href="../mod/" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-play mr-2"></i> Mod</a></li>
+            <li><a href="../sprunki-characters/" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-users mr-2"></i> Characters</a></li>
+        </ul>
+    </div>
+
+    <main class="pt-14">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-red-700 to-red-900 text-white py-20">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-5xl font-bold mb-6">Free Sprunki Phase 10 Online – New Sprunki Incredibox Mod</h1>
+                <h2 class="text-2xl mb-10">Welcome to the Dark Symphony of Sprunki Phase 10</h2>
+                <a href="#play-now" class="bg-yellow-400 text-red-900 font-bold text-xl py-4 px-10 rounded-full hover:bg-yellow-300 transition duration-300 inline-block hover:shadow-lg transform hover:-translate-y-1">
+                    <i class="fas fa-play mr-2"></i> Play Sprunki Phase 10 Now
+                </a>
+            </div>
+        </section>
+
+        <!-- Main Game Section with iframe -->
+        <section id="play-now" class="bg-white py-16">                                                  
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-8 text-red-800">Play Sprunki Phase 10 Now</h2>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4"
+                    id="recommended-games-container">
+                    <div class="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-4 row-span-4 bg-white shadow-md rounded-lg">
+                        <div class="game-container relative w-full max-w-4xl mx-auto overflow-hidden">
+                            <iframe id="game-iframe" style="transform: scale(1.1) translateY(26px);" src="https://wowtbc.net/sprunkin/phase10/index.html" frameborder="0" class="w-full h-[600px] rounded-lg shadow-2xl"></iframe>
+                            <button id="fullscreen-btn" class="absolute bottom-4 right-4 bg-black bg-opacity-60 text-white border-none py-2 px-4 rounded cursor-pointer text-sm transition duration-300 hover:bg-opacity-80 flex items-center">
+                                <i class="fas fa-expand mr-2"></i> Fullscreen
+                            </button>
+                            <button id="exit-fullscreen-btn" class="fixed top-4 right-4 bg-black bg-opacity-60 text-white border-none py-2 px-4 rounded cursor-pointer text-sm z-50 hidden">
+                                <i class="fas fa-compress mr-2"></i> Exit
+                            </button>
+                            <a href="https://sprunkiincredibox.com/" id="domain-watermark" class="absolute top-1/2 right-0 transform rotate-90 translate-y-[-50%] text-white hidden">SprunkiIncredibox.com</a>
+                        </div>
+                    </div>
+
+                    <script type="module">
+                        import { renderRecommendedGames, renderHeader } from '../js/explore.js';
+                        document.addEventListener('DOMContentLoaded', renderRecommendedGames);
+                        document.addEventListener('DOMContentLoaded', renderHeader);
+                    </script>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="bg-white py-16" id="about">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">Introduction: What is Sprunki Phase 10?</h2>
+                <p class="text-xl text-center mb-10 text-gray-600 max-w-3xl mx-auto">
+                    Sprunki Phase 10 emerges as the latest and most ambitious installment in the renowned Incredibox series, 
+                    reimagined as a haunting horror mod. This innovative music generation game blends spine-chilling atmospheres 
+                    with intuitive sound creation, offering players an unprecedented journey into the darker realms of musical 
+                    expression. Step into a world where every beat echoes with eerie possibility.
+                </p>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="bg-gradient-to-b from-gray-200 to-white py-16" id="features">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">Core Features That Define Sprunki Phase 10</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Haunting Character Ensemble:</h3>
+                        <p class="text-gray-600">Immerse yourself in a collection of meticulously designed horror-themed Sprunki Phase 10 avatars, each bringing their unique sonic signature to your compositions. These characters aren't just visual elements; they're vessels of dark musical expression, each capable of producing distinct sounds that range from ethereal whispers to bone-chilling beats, allowing for truly unique atmospheric compositions.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Dark Sound Architecture:</h3>
+                        <p class="text-gray-600">Explore an expansive library of horror-themed sound elements in Sprunki Phase 10, carefully crafted to send shivers down your spine. From ghostly vocals and creeping basslines to atmospheric drones and supernatural effects, every sound has been designed to contribute to the game's unsettling ambiance while maintaining musical coherence and flexibility.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Narrative-Driven Experience:</h3>
+                        <p class="text-gray-600">Dive deep into an interconnected story that builds upon the mysterious lore of previous editions. Through intricate sound design and visual storytelling, each musical creation becomes part of a larger narrative tapestry, revealing new chapters of the Sprunki saga through specific sound combinations and hidden features.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Community Horror Hub:</h3>
+                        <p class="text-gray-600">Join a vibrant community of dark music creators who share your passion for the macabre. Share your sinister soundscapes, discover spine-tingling compositions from other players, and collaborate to unlock the game's deepest secrets. The community aspect transforms solitary creation into a shared journey of horror-musical discovery.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Play Section -->
+        <section class="bg-white py-16" id="how-to">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">How to Create Your Dark Symphony in Sprunki Phase 10</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gradient-to-br from-red-50 to-red-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Enter the Shadows:</h3>
+                        <p class="text-gray-700">Begin your journey by launching into Sprunki Phase 10's haunting interface. Familiarize yourself with the dark ambiance and unique visual elements that set the stage for your musical creation. The game's introduction sequence guides you through the basic controls while immersing you in its spine-chilling atmosphere.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-red-50 to-red-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Summon Your Ensemble:</h3>
+                        <p class="text-gray-700">Select from a roster of horror-themed characters, each representing different musical elements and sonic possibilities. Consider how each character's unique sound profile can contribute to your overall composition. Experiment with different combinations to find the perfect balance of eerie and engaging elements.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-red-50 to-red-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Weave Your Dark Tapestry:</h3>
+                        <p class="text-gray-700">Layer your chosen characters' sounds strategically to build your composition in Sprunki Phase 10. Start with foundational elements like bass and rhythm, then add atmospheric sounds, ghostly melodies, and supernatural effects. Watch as your characters animate in response to their musical roles, bringing your creation to life.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-red-50 to-red-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Unleash Your Creation:</h3>
+                        <p class="text-gray-700">Perfect your mix by fine-tuning the balance between different elements, then save your haunting masterpiece. Share your creation with the Sprunki community, where fellow creators can experience your work, provide feedback, and draw inspiration for their own dark musical journeys.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tips Section -->
+        <section class="bg-gradient-to-b from-white to-gray-100 py-16" id="tips">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">Master Tips for Sprunki Phase 10 Success</h2>
+                <ul class="space-y-6 max-w-3xl mx-auto">
+                    <li class="bg-white p-6 rounded-xl shadow-md">
+                        <strong class="text-red-700">Master the Dark Arts:</strong> Dedicate time to understanding each character's unique sound profile and how they interact with others. Experiment with different combinations and timing to discover powerful sound synergies. Pay attention to how certain character pairings can unlock hidden animations or trigger special effects.
+                    </li>
+                    <li class="bg-white p-6 rounded-xl shadow-md">
+                        <strong class="text-red-700">Embrace the Shadows:</strong> Don't shy away from unconventional sound combinations in Sprunki Phase 10. The most compelling horror compositions often emerge from unexpected pairings. Try layering contrasting elements like ethereal vocals with heavy bass lines, or combining atmospheric drones with sharp, punctuated effects.
+                    </li>
+                    <li class="bg-white p-6 rounded-xl shadow-md">
+                        <strong class="text-red-700">Listen to the Whispers:</strong> Pay close attention to subtle audio cues and visual hints that might lead to hidden features. Many of the game's most powerful tools and effects are discovered through careful experimentation and observation. Keep track of combinations that trigger unique responses.
+                    </li>
+                    <li class="bg-white p-6 rounded-xl shadow-md">
+                        <strong class="text-red-700">Connect with the Coven:</strong> Actively engage with the Sprunki Phase 10 community through sharing your creations and studying others' work. Join discussions about discovered features, participate in community challenges, and collaborate with fellow creators to push the boundaries of what's possible in the game.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="bg-white py-16" id="faq">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">Frequently Asked Questions about Sprunki Phase 10</h2>
+                <div class="space-y-8 max-w-4xl mx-auto">
+                    <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Q: What is Sprunki Phase 10?</h3>
+                        <p class="text-gray-700">A: Sprunki Phase 10 is the latest horror-themed mod for Incredibox, introducing an entirely new set of haunting characters and eerie sounds. This mod transforms the familiar Incredibox experience into a dark musical journey, complete with spine-chilling visual elements and atmospheric storytelling.</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Q: How does Sprunki Phase 10 differ from other Incredibox mods?</h3>
+                        <p class="text-gray-700">A: While maintaining Incredibox's intuitive drag-and-drop gameplay, Sprunki Phase 10 distinguishes itself through its unique horror aesthetic, exclusive character roster, and specially designed dark soundscape. Each element has been crafted to create an unsettling yet engaging music-making experience.</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Q: Is Sprunki Phase 10 free to play?</h3>
+                        <p class="text-gray-700">A: Yes, Sprunki Phase 10 is completely free to play. Simply visit our website to start creating your haunting masterpieces immediately - no downloads or fees required. Jump right into the darkness and begin experimenting with sound creation.</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Q: Can I play Sprunki Phase 10 on mobile devices?</h3>
+                        <p class="text-gray-700">A: Absolutely! Sprunki Phase 10 is fully optimized for both desktop and mobile platforms. Create your spine-chilling compositions wherever you are, with the same high-quality experience across all devices.</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Q: Are there hidden features to discover?</h3>
+                        <p class="text-gray-700">A: Yes, Sprunki Phase 10 contains numerous hidden bonuses that can be unlocked through creative character combinations. Experiment with different arrangements to discover special animations and haunting sound effects that enhance your dark musical creations.</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Q: Does Sprunki Phase 10 feature exclusive characters?</h3>
+                        <p class="text-gray-700">A: Indeed, all characters in Sprunki Phase 10 are exclusive to this horror mod. Each character brings unique sounds and animations specifically designed for creating eerie atmospheres, unavailable in the original Incredibox or other mods.</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Q: How does collaboration work in Sprunki Phase 10?</h3>
+                        <p class="text-gray-700">A: While Sprunki Phase 10 doesn't feature real-time multiplayer, you can share your dark compositions with the community and remix others' creations. This system encourages creative exchange and inspiration among horror music enthusiasts.</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Q: Will there be updates to Sprunki Phase 10?</h3>
+                        <p class="text-gray-700">A: As a community-driven mod, Sprunki Phase 10's evolution is shaped by player feedback. Future updates may introduce new horror-themed characters, sounds, and visual elements to keep the nightmare fresh and engaging.</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Q: Do I need an account to start creating?</h3>
+                        <p class="text-gray-700">A: No account required! You can begin crafting your dark symphonies immediately upon visiting our website. This zero-barrier entry ensures everyone can start their journey into the shadows without delay.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="bg-gradient-to-r from-red-800 to-red-900 text-white py-20" id="cta">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-5xl font-bold mb-6">Embrace the Darkness: Sprunki Phase 10 Journey Begins Now</h2>
+                <p class="text-xl mb-10 max-w-2xl mx-auto">Step into the shadows of musical innovation with Sprunki Phase 10, where every beat pulses with dark possibility and each melody tells a haunting tale. Join our growing community of over 100,000 dark music creators who are already crafting their sonic nightmares and pushing the boundaries of horror-themed music generation.</p>
+                <p class="text-xl mb-10 max-w-2xl mx-auto">Play online now to unlock your exclusive launch week bonus, featuring 10 unique horror-themed sound elements not available anywhere else. Plus, join our community to connect with fellow creators, share your darkest compositions.</p>
+                <a href="#play-now" class="bg-yellow-400 text-red-900 font-bold text-xl py-4 px-10 rounded-full hover:bg-yellow-300 transition duration-300 inline-block hover:shadow-lg transform hover:-translate-y-1">Play Sprunki Phase 10 Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <p class="text-center">&copy; 2024 SprunkiIncredibox.com. All rights reserved.</p>
+        </div>
+        <div class="container mx-auto px-4 mt-4">
+            <p class="text-center"><a href="https://github.com/qiayue/SprunkiIncredibox" class="text-white hover:text-yellow-400 transition duration-300">Sprunki Incredibox Github</a></p>
+        </div>
+        <div class="language-selector mt-8">
+            <p class="text-center mb-4">Choose your language:</p>
+            <ul class="flex justify-center space-x-4">
+                <li><a href="../" hreflang="en" class="text-white hover:text-yellow-400 transition duration-300">English</a></li>
+                <li><a href="../ko/" hreflang="ko" class="text-white hover:text-yellow-400 transition duration-300">한국어</a></li>
+                <li><a href="../ru/" hreflang="ru" class="text-white hover:text-yellow-400 transition duration-300">Русский</a></li>
+                <li><a href="../pt/" hreflang="pt" class="text-white hover:text-yellow-400 transition duration-300">Português</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module">
+        import { enterFullscreen, exitFullscreen, handleFullscreenChange, autoEnterFullscreen } from '../fullscreen.js';
+
+        const fullscreenBtn = document.getElementById('fullscreen-btn');
+        const exitFullscreenBtn = document.getElementById('exit-fullscreen-btn');
+        const gameIframe = document.getElementById('game-iframe');
+        const gameContainer = document.querySelector('.game-container');
+        const domainWatermark = document.getElementById('domain-watermark');
+
+        fullscreenBtn.addEventListener('click', () => {
+            enterFullscreen(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+
+        exitFullscreenBtn.addEventListener('click', () => {
+            exitFullscreen(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+
+        document.addEventListener('fullscreenchange', () => {
+            handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+        document.addEventListener('webkitfullscreenchange', () => {
+            handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+        document.addEventListener('mozfullscreenchange', () => {
+            handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+        document.addEventListener('MSFullscreenChange', () => {
+            handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+
+        window.addEventListener('load', () => {
+            autoEnterFullscreen(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+            renderRecommendedGames();
+        });
+
+        const navSlide = () => {
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.mobile-nav');
+            const navLinks = document.querySelectorAll('.mobile-nav li');
+
+            burger.addEventListener('click', () => {
+                nav.classList.toggle('transform');
+                nav.classList.toggle('-translate-x-full');
+
+                navLinks.forEach((link, index) => {
+                    if (link.style.animation) {
+                        link.style.animation = '';
+                    } else {
+                        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                    }
+                });
+
+                burger.classList.toggle('toggle');
+            });
+        }
+
+        navSlide();
+    </script>
+    <div style="display:none">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XQY73C38G"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-2XQY73C38G');
+        </script>
+        <script defer data-domain="sprunkiincredibox.com" src="https://click.pageview.click/js/script.js"></script>
+    </div>
+</body>
+
+</html>
