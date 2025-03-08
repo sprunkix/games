@@ -3,51 +3,50 @@
   <url>
     <loc>https://sprunkix.com/</loc>
   </url>
-
   <url>
     <loc>https://sprunkix.com/play/</loc>
   </url>
-
   <url>
     <loc>https://sprunkix.com/download/</loc>
   </url>
-
-  <url>
-    <loc>https://sprunkix.com/sprunki-phase/</loc>
-  </url>
-
   <url>
     <loc>https://sprunkix.com/sprunki-characters/</loc>
+  </url>
+   <url>
+    <loc>https://sprunkix.com/game/incredibox-mustard/</loc>
   </url>
   <url>
     <loc>https://sprunkix.com/game/sprunki-incredibox/</loc>
   </url>
   <url>
-    <loc>https://sprunkix.com/game/sprunki-retake/</loc>
+    <loc>https://sprunkix.com/game/sprunki-ketchup/</loc>
   </url>
   <url>
-    <loc>https://sprunkix.com/game/incredibox-mustard/</loc>
+    <loc>https://sprunkix.com/game/sprunki-ketchup-2/</loc>
   </url>
-
-  <url>
+     <url>
+    <loc>https://sprunkix.com/game/sprunki-kissing-mod/</loc>
+  </url>
+   <url>
     <loc>https://sprunkix.com/game/sprunki-mustard/</loc>
   </url>
-
-  <url>
-    <loc>https://sprunkix.com/game/sprunki-remastered/</loc>
+   <url>
+    <loc>https://sprunkix.com/game/sprunki-oc/</loc>
   </url>
-
+  <url>
+    <loc>https://sprunkix.com/game/sprunki-phase/</loc>
+  </url>
   <url>
     <loc>https://sprunkix.com/game/sprunki-phase-10/</loc>
   </url>
+  <url>
+    <loc>https://sprunkix.com/game/sprunki-pyramixed-0.9/</loc>
+  </url>
+  <url>
+    <loc>https://sprunkix.com/game/sprunki-remastered/</loc>
+  </url>
     <url>
-    <loc>https://sprunkix.com/game/sprunki-kissing-mod/</loc>
-  </url>
-  <url>
-    <loc>https://game.sprunkix.com/game/sprunki-incredibox/index.html</loc>
-  </url>
-  <url>
-    <loc>https://game.sprunkix.com/game/sprunki-phase-3/index.html</loc>
+    <loc>https://sprunkix.com/game/sprunki-retake/</loc>
   </url>
 
 </urlset>
