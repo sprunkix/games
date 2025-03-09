@@ -53,12 +53,157 @@
         <section id="play-now" class="bg-white py-6">
             <div class="container mx-auto px-4">
                 <div class="flex flex-col lg:flex-row gap-8">
-                    <div class="lg:w-3/3">
+                    <!-- Other Games Section -->
+                    <div class="lg:w-1/7">
+                        <h2 class="text-4xl font-bold text-center mb-2 text-red-800">More Versions</h2>
+                        <div class="grid grid-cols-1 gap-4">
+                            <a href="/game/sprunki-phase-7-definitive/"
+                                class="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                                <img src="/images/sprunki-phase-7-definitive.png" alt="sprunki phase 7 definitive" class="w-full h-24 object-cover">
+                                <div class="p-2">
+                                    <div class="flex justify-between items-center">
+                                        <h3 class="text-sm font-semibold mb-1 text-red-700">Sprunki phase 7 definitive</h3>
+                                        <span class="text-yellow-400">★ 4.9</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Experience the ultimate rhythm game!</p>
+                                </div>
+                            </a>
+                            <a href="/game/sprunki-phase-7-original/"
+                                class="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                                <img src="/images/sprunki-phase-7-original.png" alt="sprunki phase 7 original" class="w-full h-24 object-cover">
+                                <div class="p-2">
+                                    <div class="flex justify-between items-center">
+                                        <h3 class="text-sm font-semibold mb-1 text-red-700">Sprunki phase 7 original</h3>
+                                        <span class="text-yellow-400">★ 4.7</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Experience the classic rhythm game!</p>
+                                </div>
+                            </a>
+                            <a href="/game/sprunki-ketchup-2/"
+                                class="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                                <img src="/images/sprunki-katchup-2.jpg" alt="Sprunki Ketchup" class="w-full h-24 object-cover">
+                                <div class="p-2">
+                                    <div class="flex justify-between items-center">
+                                        <h3 class="text-sm font-semibold mb-1 text-red-700">Sprunki Ketchup 2</h3>
+                                        <span class="text-yellow-400">★ 4.8</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Experience the Ketchup 2!</p>
+                                </div>
+                            </a>
+                            <a href="/game/sprunki-phase/"
+                                class="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                                <img src="/images/sprunki-phase-3.jpg" alt="Sprunki Phase" class="w-full h-24 object-cover">
+                                <div class="p-2">
+                                    <div class="flex justify-between items-center">
+                                        <h3 class="text-sm font-semibold mb-1 text-red-700">Sprunki Phase</h3>
+                                        <span class="text-yellow-400">★ 4.7</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Try the classic Phase version!</p>
+                                </div>
+                            </a>
+
+                            <a href="/game/sprunki-mustard/"
+                                class="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                                <img src="/images/mustard.webp" alt="Sprunki Mustard" class="w-full h-24 object-cover">
+                                <div class="p-2">
+                                    <div class="flex justify-between items-center">
+                                        <h3 class="text-sm font-semibold mb-1 text-red-700">Sprunki Mustard</h3>
+                                        <span class="text-yellow-400">★ 4.6</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Experience the spicy version!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Game Container -->
+                    <div class="lg:w-5/7">
                         <h2 class="text-4xl font-bold text-center mb-12 text-green-800">Play Retake New Human</h2>
                         <div id="game-container" class="game-container relative w-full max-w-4xl mx-auto">
                             <iframe id="game-iframe" src="https://game.sprunkix.com/game/sprunki-retake-new-human/index.html"
                                 frameborder="0" class="w-full h-[600px] rounded-lg shadow-2xl"></iframe>
-                            <!-- ... existing fullscreen buttons ... -->
+                                <button id="fullscreen-btn"
+                                class="absolute bottom-4 right-4 bg-black bg-opacity-60 text-white border-none py-2 px-4 rounded cursor-pointer text-sm transition duration-300 hover:bg-opacity-80 flex items-center">
+                                <i class="fas fa-expand mr-2"></i> Fullscreen
+                            </button>
+                            <button id="exit-fullscreen-btn"
+                                class="absolute bottom-4 right-4 bg-black bg-opacity-60 text-white border-none py-2 px-4 rounded cursor-pointer text-sm transition duration-300 hover:bg-opacity-80 flex items-center hidden">
+                                <i class="fas fa-compress mr-2"></i> Exit Fullscreen
+                            </button>
+                            <div id="domain-watermark"
+                                class="absolute top-4 left-4 text-white text-xl font-bold opacity-50 hidden">
+                                SprunkiX.com
+                            </div>
+                        </div>
+                         <!-- About Section -->
+                         <section class="bg-white py-16" id="about">
+                            <div class="container mx-auto px-4">
+                                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">What is Sprunki Retake New Human?</h2>
+                                <div class="max-w-3xl mx-auto text-gray-700 space-y-6">
+                                    <p>Sprunki Retake New Human isExperience the fusion of human creativity and digital innovation.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- Featured Versions -->
+                    <div class="lg:w-1/7">
+                        <h2 class="text-4xl font-bold text-center mb-2 text-red-800">Featured</h2>
+                        <div class="grid grid-cols-1 gap-4">
+                            <a href="/game/sprunki-retake-new-human/"
+                                class="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                                <img src="/images/sprunki-retake-new-human.png" alt="sprunki phase 7 definitive" class="w-full h-24 object-cover">
+                                <div class="p-2">
+                                    <div class="flex justify-between items-center">
+                                        <h3 class="text-sm font-semibold mb-1 text-red-700">Sprunki Retake New Human</h3>
+                                        <span class="text-yellow-400">★ 4.9</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Experience the  Retake New Human!</p>
+                                </div>
+                            </a>
+                            <a href="/game/sprunki-phase-10/"
+                                class="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                                <img src="/images/sprunki-phase-10.jpg" alt="Sprunki Phase 10" class="w-full h-24 object-cover">
+                                <div class="p-2">
+                                    <div class="flex justify-between items-center">
+                                        <h3 class="text-sm font-semibold mb-1 text-red-700">Sprunki Phase 10</h3>
+                                        <span class="text-yellow-400">★ 4.9</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Play Sprunki Phase 10 Now!</p>
+                                </div>
+                            </a>
+                            <a href="/game/sprunki-phase/"
+                            class="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                            <img src="/images/sprunki-phase-3.jpg" alt="Sprunki Phase 3" class="w-full h-24 object-cover">
+                            <div class="p-2">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-sm font-semibold mb-1 text-red-700">Sprunki Phase 3</h3>
+                                    <span class="text-yellow-400">★ 4.5</span>
+                                </div>
+                                <p class="text-xs text-gray-600">Discover the new Sprunki Phase 3!</p>
+                            </div>
+                        </a>
+                            <a href="/game/sprunki-retake/"
+                                class="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                                <img src="/images/sprunki-retake.png" alt="Sprunki Retake" class="w-full h-24 object-cover">
+                                <div class="p-2">
+                                    <div class="flex justify-between items-center">
+                                        <h3 class="text-sm font-semibold mb-1 text-red-700">Sprunki Retake</h3>
+                                        <span class="text-yellow-400">★ 4.5</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Try the retake version!</p>
+                                </div>
+                            </a>
+
+                            <a href="/game/sprunki-oc/"
+                                class="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                                <img src="/images/sprunki-oc.png" alt="Sprunki OC" class="w-full h-24 object-cover">
+                                <div class="p-2">
+                                    <div class="flex justify-between items-center">
+                                        <h3 class="text-sm font-semibold mb-1 text-red-700">Sprunki OC</h3>
+                                        <span class="text-yellow-400">★ 4.8</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Play with original characters!</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
